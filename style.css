@@ -59,14 +59,11 @@ css list:
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,800');
 
-body{
-	background: rgb(27, 26, 51);
-	font-family: 'Montserrat', sans-serif;
-	font-size: 14px;
-	color: #5a5b85;
-  overflow-x: hidden;
-
-}
+ackground: rgb(34, 33, 53);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+		color: #bfc0cf;
+    overflow-x: hidden;
 
 h1,
 h2,

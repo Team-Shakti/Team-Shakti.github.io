@@ -59,14 +59,11 @@ css list:
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,800');
 
-body{
-	background: rgb(255, 255, 255);
-	font-family: 'Montserrat', sans-serif;
-	font-size: 14px;
-	color: #000000;
-  overflow-x: hidden;
-
-}
+ackground: rgb(34, 33, 53);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+		color: #bfc0cf;
+    overflow-x: hidden;
 
 h1,
 h2,
@@ -75,7 +72,7 @@ h4,
 h5,
 h6
 {
-	color: #000;
+	color: #f1e9e9;
 	font-family: 'Montserrat', sans-serif;
 	text-transform: capitalize;
 }
@@ -179,7 +176,7 @@ a.single-about,
 .main-menu li a {
   display: block;
   padding: 10px;
-  font-size: 14px;
+  font-size: 21px;
   color: #000;
   text-transform: capitalize;
 }
@@ -376,7 +373,7 @@ ico area css
 .ico-heading h1 {
   font-size: 36px;
   text-transform: capitalize;
-  font-weight: 700;
+  font-weight: 70;
 }
 
 .ico-heading h1 a {
@@ -1727,7 +1724,7 @@ a.gradient-btn {
   color: #fff;
   text-transform: uppercase;
   font-weight: 700;
-  background: -webkit-linear-gradient(right,#fe998b,#fa768d,#f78ca0);
+  background: -webkit-linear-gradient(right,#8bc1fe,#667aa9,#443e54);
   padding: 10px 20px;
   border-radius: 5px;
   position: relative;
@@ -1741,7 +1738,7 @@ a.gradient-btn:after {
   left: 0;
   top: 0;
   content: "";
-  background: -webkit-linear-gradient(right,#072487,#fa768d,#fe998b);
+  background: -webkit-linear-gradient(left,#8bc1fe,#667aa9,#443e54);
   height: 100%;
   width: 100%;
   z-index: -1;
@@ -1755,7 +1752,7 @@ a.gradient-btn:hover:after{
 }
 
 .heading h5 {
-  font-size: 16px;
+  font-size: 20px;
   text-transform: uppercase;
 }
 
@@ -1784,15 +1781,15 @@ a.gradient-btn:hover:after{
   top: 0;
   bottom: 0;
   position: absolute;
-  content: " ";
+  content: "";
   width: 2px;
-  background-color: #000000;
+  background-color: #a1a2d6;
   left: 50%;
   margin-left: -1.5px;
 }
 
 .timeline > li {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   position: relative;
 }
 
@@ -1824,7 +1821,7 @@ a.gradient-btn:hover:after{
   padding: 20px;
   position: relative;
   -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
-  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.54);
 }
 
 .timeline > li > .timeline-panel:before {
@@ -1862,7 +1859,7 @@ a.gradient-btn:hover:after{
   top: 20px;
   left: 50%;
   margin-left: -20px;
-  background-color: #B9BBFC;
+  background-color: #b9bbfc00;
   z-index: 100;
   border-top-right-radius: 50%;
   border-top-left-radius: 50%;
@@ -1883,12 +1880,12 @@ a.gradient-btn:hover:after{
 
 .timeline > li.timeline-inverted > .timeline-panel:after {
   border-left-width: 0;
-  border-right-width: 14px;
+  border-right-width: 19px;
   left: -14px;
   right: auto;
 }
 
-.timeline-badge.primary {
+.timeline-badge.primary {   /*color of dots  */
   background-color: #B9BBFC !important;
 }
 
@@ -1908,9 +1905,9 @@ a.gradient-btn:hover:after{
   background-color: #B9BBFC !important;
 }
 
-.timeline-title {
-  margin-top: 0;
-  color: inherit;
+.timeline-title {   /* title color of each block */
+  margin-top: auto;
+  color:#0f1756;
 }
 
 .timeline-body > p,
@@ -1919,7 +1916,7 @@ a.gradient-btn:hover:after{
 }
 
 .timeline-body > p + p {
-  margin-top: 50px;
+  margin-top: 10px;
 }
 .ex1 {
   padding-left: auto;

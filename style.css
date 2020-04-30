@@ -81,6 +81,7 @@ ul{
   margin: 0;
   padding: 0;
   list-style: none;
+  background-color: #ffffff00;
 }
 
 a, a:hover{
@@ -561,8 +562,8 @@ roadmap area css
 ======================*/
 
 .roadmap-area{
-	background: #ffffff;
-  overflow: hidden;
+	background: #f3f1f1;
+	overflow: hidden;
 }
 
 .single-roadmap-img img {
@@ -986,9 +987,9 @@ community area css
   display: block;
   width: 80px;
   height: 80px;
-  color: #fff;
+  color: #0a0808;
   font-size: 24px;
-  background: red;
+  background: whitesmoke;
   text-align: center;
   line-height: 80px;
   margin: 10px;
@@ -999,7 +1000,7 @@ community area css
 
 .single-community i:hover{
   background: transparent !important;
-  border-color: #fff;
+  border-color: #8e3535;
   font-size: 20px;
 }
 
@@ -1052,7 +1053,7 @@ community area css
 }
 
 .single-community a.twitter i {
-  background: #1da1f2;
+  background: #fbfbfb;
 }
 
 .single-community a.flickr i {
@@ -1060,7 +1061,7 @@ community area css
 }
 
 .single-community a.ctf i {
-  background: #FDFEFE;
+  background: #efefef;
 }
 
 /*===================
@@ -1072,7 +1073,7 @@ footer area css
 }
 
 .single-footer li a {
-  color: #fff;
+  color: #7b4242;
   display: inline-block;
   margin-bottom: 10px;
 }
@@ -1152,7 +1153,7 @@ mobile menu css
   -moz-border-radius: 6px;
   border-radius: 6px;
   background: #004AFF;
-  color: #fff;
+  color: #9c0606;
   padding-left: 25px;
 }
 
@@ -1220,7 +1221,7 @@ welcome area v2 css
 .single-prgress-w p {
   font-size: 18px;
   font-weight: 700;
-  color: #fff;
+  color: #f7f2f2;
   text-transform: none;
 }
 
@@ -1312,7 +1313,7 @@ faq v2 area css
 }
 
 .faq-area.v2 .btn.btn-link {
-  color: #fff;
+  color:#8e3535;
   font-weight: 400;
   font-size: 18px;
   text-decoration: none;
@@ -1364,13 +1365,13 @@ community v2 area css
 .single-details small {
   font-size: 12px;
   text-transform: unoppercase;
-  color: #fff;
+  color:#8e3535;
 }
 
 .single-details a{
   font-size: 24px;
   text-transform: none;
-  color: #fff;
+  color:#8e3535;
 }
 
 .single-details a:hover {
@@ -1406,7 +1407,7 @@ blog page css
   transition: all .3s;
 }
 .welcome-header a:hover{
-  color: #fff;
+  color: #ef5050;
   -webkit-transition: all .3s;
   -o-transition: all 3s;
   transition: all .3s;
@@ -1469,7 +1470,7 @@ blog page css
 }
 
 .single-blog-text a {
-  color: #fff;
+  color: #8e3535;
   font-size: 17px;
   -webkit-transition: all .3s;
   -o-transition: all 3s;
@@ -1545,7 +1546,7 @@ a.single-blog-top:hover {
   transition: all .3s;
 }
 .single-blog-social li a:hover{
-  border-color: #f8f8f8;
+  border-color: #884141;
   background: transparent;
   -webkit-transition: all .3s;
   -o-transition: all 3s;
@@ -1553,15 +1554,15 @@ a.single-blog-top:hover {
 }
 .single-blog-social a.blog-234 {
   background: #22233b;
-  color: #fff;
+  color: #351d1d;
 }
 .single-blog-social a.blog-234:hover {
-  background: #fff;
+  background: #884141;
   color: #22233b;
 }
 .single-blog-social a.facebook-b {
   background: #3B5998;
-  color: #fff;
+  color: #a94e4e;
 }
 .single-blog-social a.facebook-b:hover {
   background: transparent;
@@ -1569,7 +1570,7 @@ a.single-blog-top:hover {
 }
 .single-blog-social a.camera-b {
   background: #c32aa3;
-  color: #fff;
+  color: #884141;
 }
 .single-blog-social a.camera-b:hover {
   background: transparent;
@@ -1577,7 +1578,7 @@ a.single-blog-top:hover {
 }
 .single-blog-social a.twitter-b {
   background: #1da1f2;
-  color: #fff;
+  color: #884141;
 }
 .single-blog-social a.twitter-b:hover {
   background: transparent;
@@ -1605,7 +1606,7 @@ a.single-blog-top:hover {
   padding: 10px 20px;
   border-radius: 5px;
   background: #062489;
-  color: #fff;
+  color: #884141;
   border: 1px solid #163fcb;
 }
 
@@ -1623,7 +1624,7 @@ a.single-blog-top:hover {
   margin-left: 20px;
 }
 .single-blog-area a{
-  color: #fff;
+  color: #884141;
   -webkit-transition: all .3s;
   -o-transition: all 3s;
   transition: all .3s;
@@ -1721,10 +1722,10 @@ comman css
 
 a.gradient-btn {
   display: inline-block;
-  color: #fff;
+  color: #f9f5f5;
   text-transform: uppercase;
   font-weight: 700;
-  background: -webkit-linear-gradient(right,#8bc1fe,#667aa9,#443e54);
+  background: -webkit-linear-gradient(right,#3d3e40,#667aa9,#443e54);
   padding: 10px 20px;
   border-radius: 5px;
   position: relative;
@@ -1767,7 +1768,7 @@ a.gradient-btn:hover:after{
 ::-webkit-input-placeholder{color:#fff}
 :-ms-input-placeholder{color:#fff}
 ::-ms-input-placeholder{color:#fff}
-::placeholder{color:#fff}
+::placeholder{color:#b58a8a}
 .card{position:relative;display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column;min-width:0;word-wrap:break-word;background-color:#000000;background-clip:border-box;border:1px solid hsl(0, 0%, 0%)%);border-radius:.25rem;}
 .card-body{-ms-flex:1 1 auto;flex:1 1 auto;padding:1.25rem}
 
@@ -1783,7 +1784,7 @@ a.gradient-btn:hover:after{
   position: absolute;
   content: "";
   width: 2px;
-  background-color: #a1a2d6;
+  background-color: #20213a;
   left: 50%;
   margin-left: -1.5px;
 }
@@ -1829,9 +1830,9 @@ a.gradient-btn:hover:after{
   top: 26px;
   right: -15px;
   display: inline-block;
-  border-top: 15px solid transparent;
-  border-left: 15px solid #ccc;
-  border-right: 0 solid #ccc;
+  border-top: 14px solid transparent;
+  border-left: 14px solid #e4e4e4;
+  border-right: 0 solid #e4e4e4;
   border-bottom: 15px solid transparent;
   content: " ";
 }
@@ -1842,8 +1843,8 @@ a.gradient-btn:hover:after{
   right: -14px;
   display: inline-block;
   border-top: 14px solid transparent;
-  border-left: 14px solid #fff;
-  border-right: 0 solid #fff;
+  border-left: 14px solid #7d7272;
+  border-right: 0 solid #7c7271;
   border-bottom: 14px solid transparent;
   content: " ";
 }
@@ -1859,7 +1860,7 @@ a.gradient-btn:hover:after{
   top: 20px;
   left: 50%;
   margin-left: -20px;
-  background-color: #b9bbfc00;
+  background-color: #20213a;
   z-index: 100;
   border-top-right-radius: 50%;
   border-top-left-radius: 50%;
@@ -1886,24 +1887,21 @@ a.gradient-btn:hover:after{
 }
 
 .timeline-badge.primary {   /*color of dots  */
-  background-color: #B9BBFC !important;
-}
+  background-color: #20213a !important;}
 
 .timeline-badge.success {
-  background-color: #B9BBFC !important;
-}
+  background-color: #20213a !important;}
 
 .timeline-badge.warning {
-  background-color: #B9BBFC !important;
+  background-color: #20213a !important;
 }
 
 .timeline-badge.danger {
-  background-color: #B9BBFC !important;
+  background-color: #20213a !important;
 }
 
 .timeline-badge.info {
-  background-color: #B9BBFC !important;
-}
+background-color: #20213a !important;}
 
 .timeline-title {   /* title color of each block */
   margin-top: auto;

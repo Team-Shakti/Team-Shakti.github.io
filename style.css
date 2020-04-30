@@ -562,7 +562,7 @@ roadmap area css
 ======================*/
 
 .roadmap-area{
-	background: #e4e4e4;
+	background: #f3f1f1;
 	overflow: hidden;
 }
 
@@ -1887,12 +1887,10 @@ a.gradient-btn:hover:after{
 }
 
 .timeline-badge.primary {   /*color of dots  */
-  background-color: #B9BBFC !important;
-}
+  background-color: #20213a !important;}
 
 .timeline-badge.success {
-  background-color: #B9BBFC !important;
-}
+  background-color: #20213a !important;}
 
 .timeline-badge.warning {
   background-color: #20213a !important;
@@ -1903,8 +1901,7 @@ a.gradient-btn:hover:after{
 }
 
 .timeline-badge.info {
-  background-color: #B9BBFC !important;
-}
+background-color: #20213a !important;}
 
 .timeline-title {   /* title color of each block */
   margin-top: auto;

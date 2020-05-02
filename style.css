@@ -175,7 +175,7 @@ a.single-about,
   display: block;
   padding: 10px;
   font-size: 21px;
-  color: #fff;
+  color: #bfc0cf;
   text-transform: capitalize;
 }
 
@@ -211,7 +211,7 @@ a.single-about,
 }
 
 .main-menu li.active ul li a {
-  color: #fff;
+  color: #ede9f1;
 }
 
 /*===================

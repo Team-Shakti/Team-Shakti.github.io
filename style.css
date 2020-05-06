@@ -2,7 +2,6 @@
 name:Cryptian, Bitcoin and Cryptocurrency HTML5 Landing Page;
 author:uivision;
 version:1.0.0;
-
 css list:
 ===========================
 1:base css
@@ -43,14 +42,12 @@ css list:
         ------------------
         --community v2 area css
         -----------------------
-
 ==========================
 14:blog page css
 ==========================
 15:single-blog page css
 ==========================
 16:comman css
-
 */
 
 /*===================
@@ -59,14 +56,11 @@ css list:
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,800');
 
-body{
-	background: rgb(255, 255, 255);
-	font-family: 'Montserrat', sans-serif;
-	font-size: 14px;
-	color: #000000;
-  overflow-x: hidden;
-
-}
+ackground: rgb(34, 33, 53);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+		color: #bfc0cf;
+    overflow-x: hidden;
 
 h1,
 h2,
@@ -75,7 +69,7 @@ h4,
 h5,
 h6
 {
-	color: #000;
+	color: #f1e9e9;
 	font-family: 'Montserrat', sans-serif;
 	text-transform: capitalize;
 }
@@ -84,6 +78,7 @@ ul{
   margin: 0;
   padding: 0;
   list-style: none;
+  background-color: #ffffff00;
 }
 
 a, a:hover{
@@ -179,8 +174,8 @@ a.single-about,
 .main-menu li a {
   display: block;
   padding: 10px;
-  font-size: 14px;
-  color: #000;
+  font-size: 21px;
+  color: #bfc0cf;
   text-transform: capitalize;
 }
 
@@ -216,7 +211,7 @@ a.single-about,
 }
 
 .main-menu li.active ul li a {
-  color: #fff;
+  color: #ede9f1;
 }
 
 /*===================
@@ -376,7 +371,7 @@ ico area css
 .ico-heading h1 {
   font-size: 36px;
   text-transform: capitalize;
-  font-weight: 700;
+  font-weight: 70;
 }
 
 .ico-heading h1 a {
@@ -564,8 +559,8 @@ roadmap area css
 ======================*/
 
 .roadmap-area{
-	background: #ffffff;
-  overflow: hidden;
+	background: #f3f1f1;
+	overflow: hidden;
 }
 
 .single-roadmap-img img {
@@ -989,9 +984,9 @@ community area css
   display: block;
   width: 80px;
   height: 80px;
-  color: #fff;
+  color: #0a0808;
   font-size: 24px;
-  background: red;
+  background: whitesmoke;
   text-align: center;
   line-height: 80px;
   margin: 10px;
@@ -1002,7 +997,7 @@ community area css
 
 .single-community i:hover{
   background: transparent !important;
-  border-color: #fff;
+  border-color: #8e3535;
   font-size: 20px;
 }
 
@@ -1055,7 +1050,7 @@ community area css
 }
 
 .single-community a.twitter i {
-  background: #1da1f2;
+  background: #fbfbfb;
 }
 
 .single-community a.flickr i {
@@ -1063,7 +1058,7 @@ community area css
 }
 
 .single-community a.ctf i {
-  background: #FDFEFE;
+  background: #efefef;
 }
 
 /*===================
@@ -1075,7 +1070,7 @@ footer area css
 }
 
 .single-footer li a {
-  color: #fff;
+  color: #7b4242;
   display: inline-block;
   margin-bottom: 10px;
 }
@@ -1155,7 +1150,7 @@ mobile menu css
   -moz-border-radius: 6px;
   border-radius: 6px;
   background: #004AFF;
-  color: #fff;
+  color: #9c0606;
   padding-left: 25px;
 }
 
@@ -1223,7 +1218,7 @@ welcome area v2 css
 .single-prgress-w p {
   font-size: 18px;
   font-weight: 700;
-  color: #fff;
+  color: #f7f2f2;
   text-transform: none;
 }
 
@@ -1315,7 +1310,7 @@ faq v2 area css
 }
 
 .faq-area.v2 .btn.btn-link {
-  color: #fff;
+  color:#8e3535;
   font-weight: 400;
   font-size: 18px;
   text-decoration: none;
@@ -1367,13 +1362,13 @@ community v2 area css
 .single-details small {
   font-size: 12px;
   text-transform: unoppercase;
-  color: #fff;
+  color:#8e3535;
 }
 
 .single-details a{
   font-size: 24px;
   text-transform: none;
-  color: #fff;
+  color:#8e3535;
 }
 
 .single-details a:hover {
@@ -1409,7 +1404,7 @@ blog page css
   transition: all .3s;
 }
 .welcome-header a:hover{
-  color: #fff;
+  color: #ef5050;
   -webkit-transition: all .3s;
   -o-transition: all 3s;
   transition: all .3s;
@@ -1472,7 +1467,7 @@ blog page css
 }
 
 .single-blog-text a {
-  color: #fff;
+  color: #8e3535;
   font-size: 17px;
   -webkit-transition: all .3s;
   -o-transition: all 3s;
@@ -1548,7 +1543,7 @@ a.single-blog-top:hover {
   transition: all .3s;
 }
 .single-blog-social li a:hover{
-  border-color: #f8f8f8;
+  border-color: #884141;
   background: transparent;
   -webkit-transition: all .3s;
   -o-transition: all 3s;
@@ -1556,15 +1551,15 @@ a.single-blog-top:hover {
 }
 .single-blog-social a.blog-234 {
   background: #22233b;
-  color: #fff;
+  color: #351d1d;
 }
 .single-blog-social a.blog-234:hover {
-  background: #fff;
+  background: #884141;
   color: #22233b;
 }
 .single-blog-social a.facebook-b {
   background: #3B5998;
-  color: #fff;
+  color: #a94e4e;
 }
 .single-blog-social a.facebook-b:hover {
   background: transparent;
@@ -1572,7 +1567,7 @@ a.single-blog-top:hover {
 }
 .single-blog-social a.camera-b {
   background: #c32aa3;
-  color: #fff;
+  color: #884141;
 }
 .single-blog-social a.camera-b:hover {
   background: transparent;
@@ -1580,7 +1575,7 @@ a.single-blog-top:hover {
 }
 .single-blog-social a.twitter-b {
   background: #1da1f2;
-  color: #fff;
+  color: #884141;
 }
 .single-blog-social a.twitter-b:hover {
   background: transparent;
@@ -1608,7 +1603,7 @@ a.single-blog-top:hover {
   padding: 10px 20px;
   border-radius: 5px;
   background: #062489;
-  color: #fff;
+  color: #884141;
   border: 1px solid #163fcb;
 }
 
@@ -1626,7 +1621,7 @@ a.single-blog-top:hover {
   margin-left: 20px;
 }
 .single-blog-area a{
-  color: #fff;
+  color: #884141;
   -webkit-transition: all .3s;
   -o-transition: all 3s;
   transition: all .3s;
@@ -1724,10 +1719,10 @@ comman css
 
 a.gradient-btn {
   display: inline-block;
-  color: #fff;
+  color: #f9f5f5;
   text-transform: uppercase;
   font-weight: 700;
-  background: -webkit-linear-gradient(right,#fe998b,#fa768d,#f78ca0);
+  background: -webkit-linear-gradient(right,#3d3e40,#667aa9,#443e54);
   padding: 10px 20px;
   border-radius: 5px;
   position: relative;
@@ -1741,7 +1736,7 @@ a.gradient-btn:after {
   left: 0;
   top: 0;
   content: "";
-  background: -webkit-linear-gradient(right,#072487,#fa768d,#fe998b);
+  background: -webkit-linear-gradient(left,#8bc1fe,#667aa9,#443e54);
   height: 100%;
   width: 100%;
   z-index: -1;
@@ -1755,7 +1750,7 @@ a.gradient-btn:hover:after{
 }
 
 .heading h5 {
-  font-size: 16px;
+  font-size: 20px;
   text-transform: uppercase;
 }
 
@@ -1770,7 +1765,7 @@ a.gradient-btn:hover:after{
 ::-webkit-input-placeholder{color:#fff}
 :-ms-input-placeholder{color:#fff}
 ::-ms-input-placeholder{color:#fff}
-::placeholder{color:#fff}
+::placeholder{color:#b58a8a}
 .card{position:relative;display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column;min-width:0;word-wrap:break-word;background-color:#000000;background-clip:border-box;border:1px solid hsl(0, 0%, 0%)%);border-radius:.25rem;}
 .card-body{-ms-flex:1 1 auto;flex:1 1 auto;padding:1.25rem}
 
@@ -1784,15 +1779,15 @@ a.gradient-btn:hover:after{
   top: 0;
   bottom: 0;
   position: absolute;
-  content: " ";
+  content: "";
   width: 2px;
-  background-color: #000000;
+  background-color: #20213a;
   left: 50%;
   margin-left: -1.5px;
 }
 
 .timeline > li {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   position: relative;
 }
 
@@ -1832,9 +1827,9 @@ a.gradient-btn:hover:after{
   top: 26px;
   right: -15px;
   display: inline-block;
-  border-top: 15px solid transparent;
-  border-left: 15px solid #ccc;
-  border-right: 0 solid #ccc;
+  border-top: 14px solid transparent;
+  border-left: 14px solid #e4e4e4;
+  border-right: 0 solid #e4e4e4;
   border-bottom: 15px solid transparent;
   content: " ";
 }
@@ -1845,8 +1840,8 @@ a.gradient-btn:hover:after{
   right: -14px;
   display: inline-block;
   border-top: 14px solid transparent;
-  border-left: 14px solid #fff;
-  border-right: 0 solid #fff;
+  border-left: 14px solid #7d7272;
+  border-right: 0 solid #7c7271;
   border-bottom: 14px solid transparent;
   content: " ";
 }
@@ -1862,7 +1857,7 @@ a.gradient-btn:hover:after{
   top: 20px;
   left: 50%;
   margin-left: -20px;
-  background-color: #B9BBFC;
+  background-color: #20213a;
   z-index: 100;
   border-top-right-radius: 50%;
   border-top-left-radius: 50%;
@@ -1883,34 +1878,31 @@ a.gradient-btn:hover:after{
 
 .timeline > li.timeline-inverted > .timeline-panel:after {
   border-left-width: 0;
-  border-right-width: 14px;
+  border-right-width: 19px;
   left: -14px;
   right: auto;
 }
 
-.timeline-badge.primary {
-  background-color: #B9BBFC !important;
-}
+.timeline-badge.primary {   /*color of dots  */
+  background-color: #20213a !important;}
 
 .timeline-badge.success {
-  background-color: #B9BBFC !important;
-}
+  background-color: #20213a !important;}
 
 .timeline-badge.warning {
-  background-color: #B9BBFC !important;
+  background-color: #20213a !important;
 }
 
 .timeline-badge.danger {
-  background-color: #B9BBFC !important;
+  background-color: #20213a !important;
 }
 
 .timeline-badge.info {
-  background-color: #B9BBFC !important;
-}
+background-color: #20213a !important;}
 
-.timeline-title {
-  margin-top: 0;
-  color: inherit;
+.timeline-title {   /* title color of each block */
+  margin-top: auto;
+  color:#0f1756;
 }
 
 .timeline-body > p,
@@ -1919,7 +1911,7 @@ a.gradient-btn:hover:after{
 }
 
 .timeline-body > p + p {
-  margin-top: 50px;
+  margin-top: 10px;
 }
 .ex1 {
   padding-left: auto;
@@ -1933,4 +1925,25 @@ img {
   width: 100%;
   height: auto;
 }
+.member {
+  background-color: #f3f1f1
+}
+.member_fontcolour{
+  color: #f3f1f1
+}
+.member_link a:link {
+  color: yellow;
+}
+
+a:visited {
+  background-color: #3c
+}
+
+a:hover {
+  background-color: lightgreen;
+}
+
+a:active {
+  background-color: hotpink;
+} 
 /*===================================== end =================================*/

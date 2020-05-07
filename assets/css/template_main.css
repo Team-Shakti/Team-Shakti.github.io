@@ -2721,12 +2721,12 @@
 	}
 
 	header h2 + p {
-		font-size: 1.25em;
+		font-size: 1em;
 		margin-top: -1em;
 	}
 
 	header h3 + p {
-		font-size: 1.1em;
+		font-size: 1.25em;
 		margin-top: -0.8em;
 	}
 

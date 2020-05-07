@@ -175,7 +175,7 @@ a.single-about,
   display: block;
   padding: 10px;
   font-size: 21px;
-  color: #000;
+  color: #bfc0cf;
   text-transform: capitalize;
 }
 
@@ -211,7 +211,7 @@ a.single-about,
 }
 
 .main-menu li.active ul li a {
-  color: #fff;
+  color: #ede9f1;
 }
 
 /*===================
@@ -1925,4 +1925,25 @@ img {
   width: 100%;
   height: auto;
 }
+.member {
+  background-color: #f3f1f1
+}
+.member_fontcolour{
+  color: #f3f1f1
+}
+.member_link a:link {
+  color: yellow;
+}
+
+a:visited {
+  background-color: #3c
+}
+
+a:hover {
+  background-color: lightgreen;
+}
+
+a:active {
+  background-color: hotpink;
+} 
 /*===================================== end =================================*/

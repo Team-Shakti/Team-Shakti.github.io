@@ -1936,16 +1936,15 @@ img {
 }
 
 a:visited {
-  background-color: #3c
+  background-color: #000
 }
-
+/*
 a:hover {
-  background-color: lightgreen;
-}
+  background-color: rgb(11, 2, 49);
 
 a:active {
   background-color: hotpink;
-} 
+} */
 .membe {
   background-color: #f3f1f1
 }

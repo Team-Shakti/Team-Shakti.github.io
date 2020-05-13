@@ -1928,23 +1928,21 @@ img {
 .member {
   background-color: #f3f1f1
 }
+.white_fontcolour{
+  color: #ccdeeb
+}
 .member_fontcolour{
-  color: #f3f1f1
+  color: #20213a
 }
-.member_link a:link {
-  color: yellow;
+.index_fontcolour{
+  color: #edd7be
 }
-
-a:visited {
-  background-color: #000
+.about_fontcolour{
+  color: #aebfd1
 }
-/*
-a:hover {
-  background-color: rgb(11, 2, 49);
-
-a:active {
-  background-color: hotpink;
-} */
+.monospace {
+  font-family: "Lucida Console", Courier, monospace;
+}
 .membe {
   background-color: #f3f1f1
 }

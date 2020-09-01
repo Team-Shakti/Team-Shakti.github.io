@@ -142,6 +142,35 @@ a.single-about,
      header css
 =====================*/
 
+.menu-options {
+  position: relative;
+}
+
+.menu-options::before, .menu-options::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  width: 100%;
+  height: 2px;
+  background-color: #2db7d4;
+  opacity: 1;
+  transform-origin: center;
+  transform: translateX(-50%) scaleX(0);
+  transition: transform 0.4s ease;
+}
+
+.menu-options::before {
+  top: 0;
+}
+
+.menu-options::after {
+  bottom: 0;
+}
+
+.menu-options:hover::before, .menu-options:hover::after {
+  transform: translateX(-50%) scaleX(1);
+}
+
 .logo-area img {
   width: 100%;
   margin-top: 0px;
@@ -175,7 +204,11 @@ a.single-about,
   display: block;
   padding: 10px;
   font-size: 21px;
-  color: #bfc0cf;
+  font-weight: 10vw;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: bold;
+  font-style: unset;
+  color: rgb(212, 209, 209);
   text-transform: capitalize;
 }
 
@@ -184,7 +217,7 @@ a.single-about,
   left: 0;
   top: 70px;
   z-index: 999;
-  background: #001763;
+  background: #20213a;
   border-radius: 5px;
   visibility: hidden;;
   opacity: 1;
@@ -199,7 +232,7 @@ a.single-about,
 }
 
 .main-menu li ul li a:hover {
-  background: #062489;
+  background: #20213a;
   padding-left: 15px;
 }
 
@@ -254,7 +287,6 @@ a.single-about,
   height: 161%;
   content: "";
   background: url(assets/img/Group1.png) no-repeat;
-  background: ;
   top: -62%;
   left: -29%;
   z-index: -1;
@@ -1064,7 +1096,6 @@ community area css
 /*===================
 footer area css
 ======================*/
-
 .single-footer .logo-area img {
   width: 90px;
 }
@@ -1125,7 +1156,7 @@ mobile menu css
 }
 
 .slicknav_nav {
-  background: #000D47;
+  background: #20213a;
   width: 200px;
   position: absolute;
   left: auto;
@@ -1138,6 +1169,7 @@ mobile menu css
 
 .slicknav_menu .slicknav_menutxt {
   display: none;
+  font-weight: bold;
 }
 
 .slicknav_nav .slicknav_row, .slicknav_nav a {
@@ -1149,13 +1181,16 @@ mobile menu css
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   border-radius: 6px;
-  background: #004AFF;
-  color: #9c0606;
+  background: #2db7d4;
+  font-weight: bolder;
+  color: #fff;
   padding-left: 25px;
 }
 
 .slicknav_nav .slicknav_row:hover {
-  background: #004AFF;
+  background: #2db7d4;
+  opacity: 0.1;
+
 }
 .slicknav_nav .slicknav_item a, .slicknav_nav .slicknav_parent-link a {
   text-transform: capitalize;
@@ -1431,7 +1466,6 @@ blog page css
   z-index: -1;
 }
 .single-blog-image {
-  background: ;
   background-position: center !important;
   background-size: cover !important;
   height: 300px;
@@ -1529,7 +1563,6 @@ a.single-blog-top:hover {
   display: block;
   color: #676767;
   background: #f8f8f8;
-  font-size: ;
   text-transform: capitalize;
   height: 40px;
   width: 91px;
@@ -1945,5 +1978,51 @@ img {
 }
 .membe {
   background-color: #f3f1f1
+}
+/*=====footer====*/
+#contact {
+  font-family: 'sans-serif';
+  background: #e4e4e4;
+  font-weight: 600;
+  font-size: 5vw;
+  width: 38%;
+  line-height: 10px;
+  color: #20213a;/* rgb(212, 209, 209);*/
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.footer-font{
+  font-style: inherit;
+  color:  rgb(212, 209, 209);
+}
+.temp-icon {
+  text-align: center;
+  font-size: 20px;
+  width: 100%;
+  color: white; 
+}
+.twitter-t{
+  color: rgb(212, 209, 209);
+}
+.twitter-t:hover{
+    background: transparent;
+    color:rgb(65, 161, 225);
+}
+.flag-t{
+  color:  rgb(212, 209, 209);
+}
+.flag-t:hover{
+    background: transparent;
+    color: crimson;
+}
+.github-t{
+  color:  rgb(212, 209, 209);
+}
+.github-t:hover{
+    background: transparent;
+    /*color:rgb(81, 142, 145);*/
+    color: white;
 }
 /*===================================== end =================================*/

@@ -1983,10 +1983,10 @@ img {
 #contact {
   font-family: 'sans-serif';
   background: #e4e4e4;
-  font-weight: 600;
+  font-weight: bolder;
   font-size: 5vw;
   width: 38%;
-  line-height: 10px;
+  line-height: normal;
   color: #20213a;/* rgb(212, 209, 209);*/
   padding-top: 30px;
   padding-bottom: 30px;

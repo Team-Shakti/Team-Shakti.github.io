@@ -178,7 +178,7 @@ a.single-about,
 }
 
 .header-area {
-  padding-top: 30px;
+  padding-top: 10px;
   z-index: 9999999;
   position: relative;
   width: 100%;
@@ -1194,6 +1194,16 @@ welcome area v2 css
 /*===================
 token area v2 css
 ======================*/
+.row.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+
+  & > [class^="col-"],
+  & > [class*=" col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
 
 .about-area.v2::after {
   right: -28%;

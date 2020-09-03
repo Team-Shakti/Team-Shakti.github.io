@@ -178,7 +178,7 @@ a.single-about,
 }
 
 .header-area {
-  padding-top: 30px;
+  padding-top: 10px;
   z-index: 9999999;
   position: relative;
   width: 100%;
@@ -871,7 +871,7 @@ apps area css
 
 /*===================
 community area css
-======================*/
+======================
 
 .community-area {
   position: relative;
@@ -985,7 +985,7 @@ community area css
 
 /*===================
 footer area css
-======================*/
+======================
 .single-footer .logo-area img {
   width: 90px;
 }
@@ -1194,6 +1194,16 @@ welcome area v2 css
 /*===================
 token area v2 css
 ======================*/
+.row.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+
+  & > [class^="col-"],
+  & > [class*=" col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
 
 .about-area.v2::after {
   right: -28%;
@@ -1215,7 +1225,7 @@ distibution area v2 css
 
 /*===================
 faq v2 area css
-======================*/
+======================
 
 .faq-area.v2 .card-header:first-child {
   border-radius: none !important;
@@ -1267,7 +1277,7 @@ faq v2 area css
 
 /*===================
 community v2 area css
-======================*/
+======================
 
 .community-area.v2 .single-community li{
   display: inline-block;
@@ -1413,8 +1423,7 @@ blog page css
 
 /*==========================
 single-blog page css
-==========================*/
-
+==========================
 a.single-blog-top:hover {
   color: #f38417;
 }
@@ -1580,7 +1589,7 @@ a.single-blog-top:hover {
 
 .single-blog-area small span {
   padding-left: 50px;
-}
+}*/
 
 small{
   font-size: 14px;
@@ -1692,6 +1701,7 @@ a.gradient-btn:hover:after{
 /*=================
       timeline
  ==================*/
+
 .timeline-padding{
     padding:10px;
 }

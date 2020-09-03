@@ -55,6 +55,7 @@ css list:
 =====================*/
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,800');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 ackground: rgb(34, 33, 53);
     font-family: 'Montserrat', sans-serif;
@@ -93,7 +94,6 @@ input, textarea{
   color: #000;
   text-transform: capitalize;
 }
-
 a.gradient-btn:hover:after,
 a.gradient-btn:after,
 .single-details a,
@@ -203,10 +203,12 @@ a.single-about,
 .main-menu li a {
   display: block;
   padding: 10px;
-  font-size: 21px;
+  font-size: 16px;
   font-weight: 10vw;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  letter-spacing: 1px;
+  text-justify: newspaper;
   font-style: unset;
   color: rgb(212, 209, 209);
   text-transform: capitalize;
@@ -393,7 +395,7 @@ a.single-about:hover {
 
 /*===================
 ico area css
-======================*/
+======================
 
 .ico-area {
   background: #031b69;
@@ -639,7 +641,7 @@ team area css
 
 /*===================
 faq area css
-======================*/
+======================
 
 .faq-list .nav {
   display: -ms-flexbox;
@@ -715,7 +717,7 @@ faq area css
 
 /*===================
 team bg area css
-======================*/
+======================
 
 .team-bg {
   position: relative;
@@ -737,7 +739,7 @@ team bg area css
 
 /*===================
 distibution area css
-======================*/
+======================
 
 .distibution-svg img {
   width: 700px;
@@ -1018,7 +1020,7 @@ footer area css
   color: #FB9A8C;
 }
 
-/*===================
+/*====================
 mobile menu css
 ======================*/
 
@@ -1047,7 +1049,7 @@ mobile menu css
 
 .slicknav_nav {
   background: #20213a;
-  width: 90vw;
+  width: 82vw;
   text-align: center;
   position: absolute;
   left: auto;

@@ -1891,7 +1891,7 @@ img {
   background: #e4e4e4;
   border: 0px;
   border-radius: 0.4rem;
-  box-shadow: 2px 5px 10px -1px rgba(185, 240, 232, 0.2);
+  box-shadow: 3px 7px 15px -1px rgba(185, 240, 232, 0.3);
 }
 
 .gallery-block.grid-gallery{

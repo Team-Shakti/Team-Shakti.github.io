@@ -53,15 +53,16 @@ css list:
 /*===================
      base css
 =====================*/
-
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,800');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-ackground: rgb(34, 33, 53);
+body {
+    background: #181126;
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
-		color: #bfc0cf;
     overflow-x: hidden;
+}
 
 h1,
 h2,
@@ -70,8 +71,8 @@ h4,
 h5,
 h6
 {
-	color: #f1e9e9;
-	font-family: 'Montserrat', sans-serif;
+	color: #20213a;
+	font-family: 'Josefin Sans', sans-serif;
 	text-transform: capitalize;
 }
 
@@ -84,6 +85,10 @@ ul{
 
 a, a:hover{
   text-decoration: none;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
 }
 
 input:focus, button:focus, textarea:focus {
@@ -303,7 +308,7 @@ a.single-about,
 
 /*===================
      about css
-=====================*/
+=====================
 
 .about-area {
   position: relative;
@@ -559,7 +564,7 @@ ico area css
 
 /*===================
 Documentation area css
-======================*/
+======================
 
 .single-document-text span {
   font-size: 18px;
@@ -1158,41 +1163,6 @@ welcome area v2 css
   text-align: center;
 }
 
-.v2.welcome-progress #days, .v2.welcome-progress #minutes, .v2.welcome-progress #hours, .v2.welcome-progress #seconds {
-  font-size: 30px;
-  margin: 13px 0;
-  display: block;
-  height: 70px;
-  width: 70px;
-  border-radius: 50px;
-  line-height: 70px;
-  text-align: center;
-}
-
-.v2.welcome-progress #days{
-  background: -webkit-linear-gradient(#00c0fa, #005dea);
-  background: -o-linear-gradient(#00c0fa, #005dea);
-  background: linear-gradient(#00c0fa, #005dea);
-}
-
-.v2.welcome-progress #minutes{
-  background: -webkit-linear-gradient(#3ce6bc, #72afd3);
-  background: -o-linear-gradient(#3ce6bc, #72afd3);
-  background: linear-gradient(#3ce6bc, #72afd3);
-}
-
-.v2.welcome-progress #hours{
-  background: -webkit-linear-gradient(#d8c3fc, #91c5fc);
-  background: -o-linear-gradient(#d8c3fc, #91c5fc);
-  background: linear-gradient(#d8c3fc, #91c5fc);
-}
-
-.v2.welcome-progress #seconds{
-  background: -webkit-linear-gradient(#43b2f5, #19d7e4);
-  background: -o-linear-gradient(#43b2f5, #19d7e4);
-  background: linear-gradient(#43b2f5, #19d7e4);
-}
-
 /*===================
 token area v2 css
 ======================*/
@@ -1365,7 +1335,7 @@ blog page css
   top: 0;
   z-index: -1;
 }
-.single-blog-image {
+/*.single-blog-image {
   background-position: center !important;
   background-size: cover !important;
   height: 300px;
@@ -1601,6 +1571,10 @@ small{
 /*===================
 comman css
 ======================*/
+.custom-heading {
+  font-family: 'Josefin Sans', sans-serif;
+
+}
 
 .section-padding{
   padding: 90px 0;
@@ -1864,9 +1838,10 @@ a.gradient-btn:hover:after{
 .timeline-badge.info {
 background-color: #20213a !important;}
 
-.timeline-title {   /* title color of each block */
+.timelin-title {   /* title color of each block */
   margin-top: auto;
   color:#0f1756;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .timeline-body > p,
@@ -1875,7 +1850,7 @@ background-color: #20213a !important;}
 }
 
 .timeline-body > p + p {
-  margin-top: 10px;
+  mrgin-top: 10px;
 }
 .ex1 {
   padding-left: auto;
@@ -1898,9 +1873,7 @@ img {
 .member_fontcolour{
   color: #20213a
 }
-.index_fontcolour{
-  color: #edd7be
-}
+
 .about_fontcolour{
   color: #aebfd1;
   flex-wrap: wrap;
@@ -1910,6 +1883,52 @@ img {
 }
 .membe {
   background-color: #f3f1f1
+}
+/*======================
+        Gallery
+=======================*/
+.card {
+  background: #e4e4e4;
+  border: 0px;
+  border-radius: 0.4rem;
+  box-shadow: 2px 5px 10px -1px rgba(185, 240, 232, 0.2);
+}
+
+.gallery-block.grid-gallery{
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+
+.gallery-block.grid-gallery .heading{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.gallery-block.grid-gallery .heading h2{
+    font-weight: bold;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+
+.gallery-block.grid-gallery a:hover{
+  opacity: 0.8;
+}
+
+.gallery-block.grid-gallery .item img{
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+  transition: 0.4s;
+}
+
+.gallery-block.grid-gallery .item{
+  margin-bottom: 20px;
+}
+
+@media (min-width: 576px) {
+
+.gallery-block.grid-gallery .scale-on-hover:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15) !important;
+  }
 }
 /*=================
         footer

@@ -1962,13 +1962,13 @@ img {
 #contact {
   font-family: 'Montserrat';
  /* background: #e4e4e4;
-  font-weight: bold;
-  font-size: 5vw;*/
+  font-weight: bold;*/
+  font-size: 2vw;
   width: 38%;
   line-height: normal;
   color: #ffffffe1;/* rgb(212, 209, 209);*/
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 20px;
+  padding-bottom: 10px;
   text-align: center;
 }
 

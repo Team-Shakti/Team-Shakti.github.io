@@ -1879,7 +1879,8 @@ img {
   flex-wrap: wrap;
 }
 .monospace {
-  font-family: "Lucida Console", Courier, monospace;
+  font-family: "montserrat";
+  
 }
 .membe {
   background-color: #f3f1f1
@@ -1930,19 +1931,44 @@ img {
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15) !important;
   }
 }
+
+
+/*=================
+        glowtext
+===================
+.glow {
+  font-size: 80px;
+  color: #fff;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 1px #fff, 0 0 3px #fff, 0 0 5px #032368, 0 0 7px #032368, 0 0 9px #70c6ff, 0 0 10px #70c6ff, 0 0 12px #70c6ff;
+  }
+  
+  to {
+    text-shadow: 0 0 3px #fff, 0 0 5px #4dcdff, 0 0 7px #4dcdff, 0 0 9px #4dcdff, 0 0 10px #4dcdff, 0 0 12px #4dcdff, 0 0 14px #4dcdff;
+  }
+}
+*/
+
+
 /*=================
         footer
 ===================*/
 #contact {
-  font-family: 'sans-serif';
-  background: #e4e4e4;
-  font-weight: bold;
-  font-size: 5vw;
+  font-family: 'Montserrat';
+ /* background: #e4e4e4;
+  font-weight: bold;*/
+  font-size: 2vw;
   width: 38%;
   line-height: normal;
-  color: #20213a;/* rgb(212, 209, 209);*/
-  padding-top: 30px;
-  padding-bottom: 30px;
+  color: #ffffffe1;/* rgb(212, 209, 209);*/
+  padding-top: 20px;
+  padding-bottom: 10px;
   text-align: center;
 }
 
@@ -1978,4 +2004,18 @@ img {
     /*color:rgb(81, 142, 145);*/
     color: white;
 }
+
+.column-3div{
+  float: left;
+  width: 33.33%;
+
+}
+
+.new-row-foot:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
 /*===================================== end =================================*/

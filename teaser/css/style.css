@@ -75,7 +75,7 @@ a:hover,
 a:focus {
   text-decoration: none;
   outline: none;
-  color: #fff;
+  color: #673ab7;
 }
 
 ul,
@@ -147,7 +147,7 @@ ol {
 }
 
 .spad {
-  padding-top: 100px;
+  padding-top: 10px;
   padding-bottom: 100px;
 }
 
@@ -642,14 +642,10 @@ ol {
 /*---------------------
   Services
 -----------------------*/
-
-/*---------------------
-  Services
------------------------*/
 .services {
   background: #100028;
   padding-bottom: 60px;
-  padding-top: 110px;
+  padding-top: 20px;
 }
 
 .services__title p {
@@ -844,7 +840,7 @@ ol {
 }
 .twitter-t:hover{
     background: transparent;
-    color:rgb(65, 161, 225);
+    color:#41a1e1;
 }
 .flag-t{
   color:  rgb(212, 209, 209);

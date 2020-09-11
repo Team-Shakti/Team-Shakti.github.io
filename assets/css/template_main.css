@@ -2721,12 +2721,12 @@
 	}
 
 	header h2 + p {
-		font-size: 1.25em;
+		font-size: 1em;
 		margin-top: -1em;
 	}
 
 	header h3 + p {
-		font-size: 1.1em;
+		font-size: 1.25em;
 		margin-top: -0.8em;
 	}
 
@@ -3127,7 +3127,7 @@
 				color: #fff;
 			}
 
-			.wrapper.style2 h1, .wrapper.style2 h2, .wrapper.style2 h3, .wrapper.style2 h4, .wrapper.style2 h5, .wrapper.style2 h6 {
+			.wrapper.style2 h1, .wrapper.style2 h2, .wrapper.style2 h3, .wrapper.style2 h4, .wrapper.style2 h5, .wrapper.style2 h6, .wrapper.style2 p {
 				color: #fff;
 			}
 

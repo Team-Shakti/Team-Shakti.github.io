@@ -1981,6 +1981,16 @@ img {
   width: 100%;
   color: white; 
 }
+
+.bg_footer{
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: block;
+  height: 25em;
+  width: 400px;
+  opacity: 0.1;
+}
 .twitter-t{
   color: rgb(212, 209, 209);
 }

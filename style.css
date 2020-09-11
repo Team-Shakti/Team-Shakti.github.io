@@ -1987,10 +1987,21 @@ img {
   right: 0;
   top: 0;
   display: block;
-  height: 25em;
+  height: 380px;
   width: 400px;
   opacity: 0.1;
 }
+
+.bg_footer:hover {
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: block;
+  height: 380px;
+  width: 400px;
+  opacity: 0.8;
+}
+
 .twitter-t{
   color: rgb(212, 209, 209);
 }

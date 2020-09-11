@@ -812,6 +812,27 @@ ol {
   font-style: "Montserrat";
   color:  rgb(212, 209, 209);
 }
+
+.bg_footer{
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: block;
+  height: 350px;
+  width: 400px;
+  opacity: 0.1;
+}
+
+.bg_footer:hover {
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: block;
+  height: 380px;
+  width: 400px;
+  opacity: 0.8;
+}
+
 .temp-icon {
   text-align: center;
   font-size: 20px;

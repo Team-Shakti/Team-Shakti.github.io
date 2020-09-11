@@ -853,4 +853,69 @@ ol {
   clear: both;
 }
 
+.btn,
+.btn2 {
+  width: 200px;
+  height: 70px;
+  font-size: 20px;
+  text-align: center;
+  line-height: 60px;
+  color: rgba(255,255,255,0.9);
+  border-radius: 50px;
+  background: linear-gradient(-45deg, #ffa63d, #ff3d77, #338aff, #3cf0c5);
+  background-size: 600%;
+  -webkit-animation: anime 16s linear infinite;
+          animation: anime 16s linear infinite;
+}
+.btn2 {
+  position: absolute;
+  margin-top: -70px;
+  z-index: -1;
+  -webkit-filter: blur(30px);
+          filter: blur(30px);
+  opacity: 0.8;
+}
+@-webkit-keyframes anime {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes anime {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.hacked {
+  font-family: FreeMono, monospace;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+}
+
+@font-face {
+ font-family: 'hacked';
+ src: url(../fonts/HACKED_Title.ttf);
+ font-style: normal;
+ font-weight: 100;
+}
+.hack {
+ font-family: hacked;
+ text-align: center;
+ font-size: 40px;
+ color: white;
+}
+
 

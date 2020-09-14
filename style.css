@@ -1570,6 +1570,40 @@ small{
 /*===================
 comman css
 ======================*/
+.ex1 {
+  padding-left: auto;
+  padding-right: auto;
+  margin: auto;
+  width: 60%;
+
+  padding: 10px;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+.member {
+  background-color: #f3f1f1
+}
+.white_fontcolour{
+  color: #ccdeeb
+}
+.member_fontcolour{
+  color: #20213a
+}
+
+.about_fontcolour{
+  color: #aebfd1;
+  flex-wrap: wrap;
+}
+.monospace {
+  font-family: "montserrat";
+  
+}
+.membe {
+  background-color: #f3f1f1
+}
+
 .custom-heading {
   font-family: 'Josefin Sans', sans-serif;
 
@@ -1675,7 +1709,7 @@ a.gradient-btn:hover:after{
 .card-body{-ms-flex:1 1 auto;flex:1 1 auto;padding:1.25rem}
 /*=================
       timeline
- ==================*/
+ ==================
 
 .timeline-padding{
     padding:10px;
@@ -1820,7 +1854,7 @@ a.gradient-btn:hover:after{
   right: auto;
 }
 
-.timeline-badge.primary {   /*color of dots  */
+.timeline-badge.primary {   /*color of dots  
   background-color: #20213a !important;}
 
 .timeline-badge.success {
@@ -1837,7 +1871,7 @@ a.gradient-btn:hover:after{
 .timeline-badge.info {
 background-color: #20213a !important;}
 
-.timelin-title {   /* title color of each block */
+.timelin-title {   /* title color of each block 
   margin-top: auto;
   color:#0f1756;
   font-family: 'Montserrat', sans-serif;
@@ -1850,40 +1884,8 @@ background-color: #20213a !important;}
 
 .timeline-body > p + p {
   mrgin-top: 10px;
-}
-.ex1 {
-  padding-left: auto;
-  padding-right: auto;
-  margin: auto;
-  width: 60%;
+}*/
 
-  padding: 10px;
-}
-img {
-  width: 100%;
-  height: auto;
-}
-.member {
-  background-color: #f3f1f1
-}
-.white_fontcolour{
-  color: #ccdeeb
-}
-.member_fontcolour{
-  color: #20213a
-}
-
-.about_fontcolour{
-  color: #aebfd1;
-  flex-wrap: wrap;
-}
-.monospace {
-  font-family: "montserrat";
-  
-}
-.membe {
-  background-color: #f3f1f1
-}
 /*======================
         Gallery
 =======================*/

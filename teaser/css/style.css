@@ -30,6 +30,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,800');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Audiowide&display=swap');
+
 
 
 html,
@@ -38,6 +40,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;
 }
+
 
 h1,
 h2,
@@ -84,70 +87,20 @@ ol {
   margin: 0;
 }
 
-/*---------------------
-  Helper CSS
------------------------*/
-..services {
-  background: #100028;
-  padding-bottom: 60px;
-  padding-top: 110px;
+/*
+#272458*/
+#grad {
+  background-image: radial-gradient(#3c3975,#100e44);
 }
-
-.services__title p {
-  margin-bottom: 45px;
-}
-
-.services__item {
-  margin-bottom: 45px;
-}
-.services__item:hover .services__item__icon:after {
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-      transform: rotate(45deg);
-}
-.services__item h4 {
-  color: #ffffff;
-  font-size: 22px;
-  font-weight: 700;
-  margin-top: 26px;
-  margin-bottom: 18px;
-}
-.services__item p {
-  margin-bottom: 0;
-}
-
-.services__item__icon {
-  position: relative;
-  height: 70px;
-  width: 70px;
-  line-height: 70px;
-  text-align: center;
-}
-.services__item__icon:after {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  border: 2px solid #00bfe7;
-  content: "";
-  -webkit-transition: all, 0.5s;
-  -o-transition: all, 0.5s;
-  transition: all, 0.5s;
-}
-
-
-
-
 .set-bg {
-  background-color:#ffffff;
+  
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
 }
 
 .spad {
-  padding-top: 10px;
+  padding-top: 30px;
   padding-bottom: 100px;
 }
 
@@ -495,7 +448,7 @@ ol {
 }
 .hero__text h2 {
   color: #ffffff;
-  font-size: 60px;
+  font-size: 80px;
   font-weight: 700;
   line-height: 70px;
   text-transform: uppercase;
@@ -597,9 +550,6 @@ ol {
   bottom: 0;
 }
 
-/*---------------------
-  Latest
------------------------*/
 
 /*---------------------
   Call To Active
@@ -643,7 +593,7 @@ ol {
   Services
 -----------------------*/
 .services {
-  background: #100028;
+  background-image: radial-gradient(#19194e,#0d022c);
   padding-bottom: 60px;
   padding-top: 20px;
 }
@@ -695,7 +645,7 @@ ol {
   Testimonial
 -----------------------*/
 .testimonial {
-  padding-bottom: 60px;
+  padding-bottom: 6px;
 }
 
 .testimonial__slider.owl-carousel .owl-item .col-lg-4 {
@@ -721,16 +671,16 @@ ol {
 
 .testimonial__text {
   padding: 30px 40px 25px 30px;
-  border: 1px solid #3D3A64;
+  border: 5px solid #ffffffef;
   margin-bottom: 25px;
   position: relative;
   z-index: 9;
 }
 .testimonial__text P {
   color: #ffffff;
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 300;
-  font-style: italic;
+  font-style: bold;
   line-height: 30px;
   margin-bottom: 0;
 }
@@ -919,20 +869,39 @@ ol {
   font-family: FreeMono, monospace;
   text-align: center;
   font-size: 30px;
-  color: white;
+  color: rgb(22, 228, 255);
 }
 
 @font-face {
  font-family: 'hacked';
  src: url(../fonts/HACKED_Title.ttf);
- font-style: normal;
+ font-style: bold;
  font-weight: 100;
 }
 .hack {
  font-family: hacked;
  text-align: center;
+ 
  font-size: 40px;
- color: white;
+  text-shadow: 4px 2px #06437c;
+ color: rgba(255, 255, 255, 0.795);
+
 }
+
+
+.d3 {
+  margin: 0.5em 0.5em;
+  
+  font-family: 'Audiowide';
+  font-size: 55px;
+  font-weight: 100;
+  color: #e4e4e4 ;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  text-shadow: -0.06em 0 0.05em #ff00f2,  0.04em 0.05em 0 #00FFFF;
+}
+
+
 
 

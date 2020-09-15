@@ -2322,3 +2322,34 @@ background-color: #20213a !important;}
 
 
 /*===================================== end =================================*/
+@font-face {
+  font-family: 'ptsans';
+  src: url(./assets/fonts/PTSans-Regular.ttf);
+  font-style: normal;
+  font-weight: 80;
+  line-height: 1;
+}
+
+.timelinefont1 {
+  font-family: ptsans;
+  text-align: justify;
+  font-size: 20px;
+  color: white;
+}
+@font-face {
+  font-family: 'josefin';
+  src: url(./assets/fonts/JosefinSans.ttf);
+  font-style: normal;
+  font-weight: 500;
+}
+.timelinefont2 {
+  font-family: josefin, cursive;
+  text-align: center;
+  font-size: 32px;
+  color: white;
+}
+
+.timelinefont3 {
+  font-family: "Lucida Console", Courier, monospace;
+  font-weight: bold;
+}

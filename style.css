@@ -1977,6 +1977,7 @@ background-color: #20213a !important;}
   font-style: inherit;
   color:  rgb(212, 209, 209);
 }
+
 .temp-icon {
   text-align: center;
   font-size: 20px;
@@ -1992,6 +1993,12 @@ background-color: #20213a !important;}
   height: 380px;
   width: 400px;
   opacity: 0.1;
+}
+
+@media (max-width:990px) {
+  img#optional {
+    display: none;
+  }
 }
 
 .bg_footer:hover {
@@ -2045,7 +2052,6 @@ background-color: #20213a !important;}
 
 .main-timeline h4 {
   margin-top: 0;
-  color:#44abff;
 }
 
 .main-timeline {
@@ -2168,7 +2174,6 @@ background-color: #20213a !important;}
 
 .main-timeline .description {
     display: inline-block;
-    color: #b7cfdd;
     font-size:20px;
     line-height: 1.5;
     margin: 0
@@ -2216,7 +2221,6 @@ background-color: #20213a !important;}
 }
 .main-timeline .timelinefont2 {
   font-family: josefin, cursive;
-  text-align: center;
   font-size: 32px;
   color: white;
   text-align: left;
@@ -2353,6 +2357,7 @@ background-color: #20213a !important;}
     .main-timeline h4 {
     margin-top:25px;
     }
+
 
 }
 /*end timeline*/

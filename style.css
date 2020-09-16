@@ -603,46 +603,42 @@ team area css
 .single-team-content h3 {
   font-size: 22px;
   font-weight: 700;
+  margin-bottom: 2px;
 }
 
-.single-team-social li {
-  display: inline-block;
+.single-team-content {
+  padding-bottom: 15px;
 }
 
-.single-team-social li a {
-  color: #fff;
-  font-size: 24px;
-  width: 50px;
-  height: 50px;
-  display: block;
-  line-height: 50px;
-  background: red;
-  margin: 0 5px;
-  border-radius: 10px;
-  border: 1px solid transparent;
+.social {
+  margin-top: 2px;
+  margin-bottom: 5px; 
 }
 
-.single-team-social li a:hover i {
-  padding-left: 10px;
+.social a {
+  color: #b3b3b3;
 }
 
-.single-team-social li a:hover {
-  border-color: #fff;
-  background: none !important;
+.social a:hover {
+  color: #2dc997;
 }
 
-.single-team-social li a.ico-1 {
-  background: #0077b5;
+.social i {
+  font-size: 18px;
+  margin: 0 2px;
 }
 
-.single-team-social li a.ico-2 {
-  background: #E84C88;
+.social .twitter:hover {
+  color: #00acee;
 }
 
-.single-team-social li a.ico-3 {
-  background: #55acee;
+.social .linkedin:hover {
+  color: #0e76a8;
 }
 
+.social .feed:hover {
+  color: #ee802f;
+}
 /*===================
 faq area css
 ======================
@@ -1564,6 +1560,7 @@ a.single-blog-top:hover {
 
 small{
   font-size: 14px;
+  font-style: italic;
 }
 
 
@@ -2016,7 +2013,7 @@ background-color: #20213a !important;}
 }
 .twitter-t:hover{
     background: transparent;
-    color:rgb(65, 161, 225);
+    color:#00acee;
 }
 .flag-t{
   color:  rgb(212, 209, 209);
@@ -2031,7 +2028,7 @@ background-color: #20213a !important;}
 .github-t:hover{
     background: transparent;
     /*color:rgb(81, 142, 145);*/
-    color: white;
+    color: #7DBBE6;
 }
 
 .column-3div{
@@ -2361,6 +2358,5 @@ background-color: #20213a !important;}
 
 }
 /*end timeline*/
-
 
 /*===================================== end =================================*/

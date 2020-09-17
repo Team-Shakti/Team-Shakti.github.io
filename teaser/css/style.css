@@ -905,3 +905,35 @@ ol {
 
 
 
+
+.button {
+  border: 1px solid #fff;
+  padding: 10px 25px;
+  border-radius: 15px;
+  cursor: pointer;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -webkit-transition: background-color 100ms linear;
+  -ms-transition: background-color 100ms linear;
+  transition: background-color 100ms linear;
+}
+
+.button span {
+  color: #fff;
+  font-size: 25px;
+  font-family: "Audiowide", sans-serif;
+  -webkit-transition: color 100ms linear;
+  -ms-transition: color 100ms linear;
+  transition: color 100ms linear;
+}
+
+.button:hover {
+  background: #fff;
+}
+
+.button:hover span {
+  color: #242424;
+}
+
+

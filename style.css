@@ -2052,7 +2052,10 @@ background-color: #20213a !important;}
 /*timeline*/
 
 .main-timeline h4 {
-  margin-top: 0;
+
+  margin:30px 0;
+  color:#44abff;
+
 }
 
 .main-timeline {
@@ -2176,7 +2179,7 @@ background-color: #20213a !important;}
 .main-timeline .description {
     display: inline-block;
     font-size:20px;
-    line-height: 1.5;
+    line-height: 20px;
     margin: 0
 }
 
@@ -2210,6 +2213,7 @@ background-color: #20213a !important;}
     right: 0
 }
 
+
 .main-timeline .timelinefont1 {
   font-size: 20px;
   color: white;
@@ -2232,6 +2236,7 @@ background-color: #20213a !important;}
   font-family: "Lucida Console", Courier, monospace;
   font-weight: bold;
 }
+
 
 @media only screen and (max-width:1200px) {
     .main-timeline .timeline-icon:before {
@@ -2345,6 +2350,7 @@ background-color: #20213a !important;}
     .main-timeline .timeline-content:after {
       width:45vw;
     }
+
     .main-timeline .timelinefont2 {
       text-align: left;
       font-size: 25px;

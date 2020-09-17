@@ -639,6 +639,10 @@ team area css
 .social .feed:hover {
   color: #ee802f;
 }
+
+.social .github:hover {
+  color: #000000;
+}
 /*===================
 faq area css
 ======================

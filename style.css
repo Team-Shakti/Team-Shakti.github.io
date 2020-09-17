@@ -603,46 +603,46 @@ team area css
 .single-team-content h3 {
   font-size: 22px;
   font-weight: 700;
+  margin-bottom: 2px;
 }
 
-.single-team-social li {
-  display: inline-block;
+.single-team-content {
+  padding-bottom: 15px;
 }
 
-.single-team-social li a {
-  color: #fff;
-  font-size: 24px;
-  width: 50px;
-  height: 50px;
-  display: block;
-  line-height: 50px;
-  background: red;
-  margin: 0 5px;
-  border-radius: 10px;
-  border: 1px solid transparent;
+.social {
+  margin-top: 2px;
+  margin-bottom: 5px; 
 }
 
-.single-team-social li a:hover i {
-  padding-left: 10px;
+.social a {
+  color: #b3b3b3;
 }
 
-.single-team-social li a:hover {
-  border-color: #fff;
-  background: none !important;
+.social a:hover {
+  color: #2dc997;
 }
 
-.single-team-social li a.ico-1 {
-  background: #0077b5;
+.social i {
+  font-size: 18px;
+  margin: 0 2px;
 }
 
-.single-team-social li a.ico-2 {
-  background: #E84C88;
+.social .twitter:hover {
+  color: #00acee;
 }
 
-.single-team-social li a.ico-3 {
-  background: #55acee;
+.social .linkedin:hover {
+  color: #0e76a8;
 }
 
+.social .feed:hover {
+  color: #ee802f;
+}
+
+.social .github:hover {
+  color: #000000;
+}
 /*===================
 faq area css
 ======================
@@ -1564,6 +1564,7 @@ a.single-blog-top:hover {
 
 small{
   font-size: 14px;
+  font-style: italic;
 }
 
 
@@ -1977,6 +1978,7 @@ background-color: #20213a !important;}
   font-style: inherit;
   color:  rgb(212, 209, 209);
 }
+
 .temp-icon {
   text-align: center;
   font-size: 20px;
@@ -1994,6 +1996,12 @@ background-color: #20213a !important;}
   opacity: 0.1;
 }
 
+@media (max-width:990px) {
+  img#optional {
+    display: none;
+  }
+}
+
 .bg_footer:hover {
   position: absolute;
   right: 0;
@@ -2009,7 +2017,7 @@ background-color: #20213a !important;}
 }
 .twitter-t:hover{
     background: transparent;
-    color:rgb(65, 161, 225);
+    color:#00acee;
 }
 .flag-t{
   color:  rgb(212, 209, 209);
@@ -2024,7 +2032,7 @@ background-color: #20213a !important;}
 .github-t:hover{
     background: transparent;
     /*color:rgb(81, 142, 145);*/
-    color: white;
+    color: #7DBBE6;
 }
 
 .column-3div{
@@ -2044,8 +2052,10 @@ background-color: #20213a !important;}
 /*timeline*/
 
 .main-timeline h4 {
+
   margin:30px 0;
   color:#44abff;
+
 }
 
 .main-timeline {
@@ -2168,7 +2178,6 @@ background-color: #20213a !important;}
 
 .main-timeline .description {
     display: inline-block;
-    color: #b7cfdd;
     font-size:20px;
     line-height: 20px;
     margin: 0
@@ -2202,6 +2211,30 @@ background-color: #20213a !important;}
 .main-timeline .timeline:nth-child(even) .timeline-content:after {
     left: auto;
     right: 0
+}
+
+
+.main-timeline .timelinefont1 {
+  font-size: 20px;
+  color: white;
+}
+@font-face {
+  font-family: 'josefin';
+  src: url(./assets/fonts/JosefinSans.ttf);
+  font-style: normal;
+  font-weight: 500;
+}
+.main-timeline .timelinefont2 {
+  font-family: josefin, cursive;
+  font-size: 32px;
+  color: white;
+  text-align: left;
+
+}
+
+.main-timeline .timelinefont3 {
+  font-family: "Lucida Console", Courier, monospace;
+  font-weight: bold;
 }
 
 
@@ -2317,8 +2350,23 @@ background-color: #20213a !important;}
     .main-timeline .timeline-content:after {
       width:45vw;
     }
+
+    .main-timeline .timelinefont2 {
+      text-align: left;
+      font-size: 25px;
+      color: white;
+    }
+    .main-timeline .timelinefont1 {
+    /* font-family: ptsans; */
+    text-align: left;
+    font-size: 20px;
+    }
+    .main-timeline h4 {
+    margin-top:25px;
+    }
+
+
 }
 /*end timeline*/
-
 
 /*===================================== end =================================*/

@@ -2367,6 +2367,20 @@ background-color: #20213a !important;}
 
 
 }
+
+@font-face {
+  font-family: 'pt';
+  src: url(./assets/fonts/PTSans-Regular.ttf);
+  font-style: normal;
+  line-height: 100%;
+}
+.aboutfont {
+  font-family: pt;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: justify;
+  color: #3c4f62;
+}
 /*end timeline*/
 
 /*===================================== end =================================*/

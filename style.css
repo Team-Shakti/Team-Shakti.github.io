@@ -2383,4 +2383,17 @@ background-color: #20213a !important;}
 }
 /*end timeline*/
 
+.homefont {
+  font-family: pt;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+
+.hometitle {
+  font-family: josefin;
+  font-size: 30px;
+  color: white;
+}
+
 /*===================================== end =================================*/

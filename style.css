@@ -2405,28 +2405,28 @@ background-color: #20213a !important;}
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: -280px;
-  margin-top: -170px;
+  margin-bottom: -75px;
+  margin-top: -30px;
   width: 75%;
 }
 
 @font-face {
-  font-family: 'hacked';
-  src: url(./assets/fonts/HACKED_Title.ttf);
+  font-family: 'junction';
+  src: url(./assets/fonts/Junction-regular.otf);
   font-style: normal;
   line-height: 100%;
 }
 .headfont {
-  font-family: hacked;
-  font-size: 80px;
-  font-weight: 500;
+  font-family: junction;
+  font-size: 48px;
+  font-weight: 100;
   text-align: center;
-  color: #e4e4e4;
+  color: white;
 }
 .headfont1 {
   font-family: "Courier New", sans-serif;
   color: #e4e4e4;
-  font-size: 25px;
+  font-size: 18px;
   text-align: center;
 
 }

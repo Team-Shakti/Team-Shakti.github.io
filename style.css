@@ -39,8 +39,7 @@ css list:
         --welcome area v2 css
         -------------------
         --faq v2 area css
-        ------------------
-        --community v2 area css
+        ------------------s
         -----------------------
 ==========================
 14:blog page css
@@ -72,7 +71,7 @@ h5,
 h6
 {
 	color: #20213a;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	text-transform: capitalize;
 }
 
@@ -1982,6 +1981,27 @@ img {
   width: 100%;
   color: white; 
 }
+
+.bg_footer{
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: block;
+  height: 380px;
+  width: 400px;
+  opacity: 0.1;
+}
+
+.bg_footer:hover {
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: block;
+  height: 380px;
+  width: 400px;
+  opacity: 0.8;
+}
+
 .twitter-t{
   color: rgb(212, 209, 209);
 }

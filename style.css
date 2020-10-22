@@ -2367,6 +2367,69 @@ background-color: #20213a !important;}
 
 
 }
+
+@font-face {
+  font-family: 'pt';
+  src: url(./assets/fonts/PTSans-Regular.ttf);
+  font-style: normal;
+  line-height: 100%;
+}
+.aboutfont {
+  font-family: pt;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: justify;
+  color: #3c4f62;
+}
 /*end timeline*/
+
+.homefont {
+  font-family: pt;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  border-radius: 0.4rem;
+  padding-right: 20px;
+  padding-left: 20px;
+
+}
+
+.hometitle {
+  font-family: josefin;
+  font-size: 30px;
+  color: white;
+}
+
+
+.tryme {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -75px;
+  margin-top: -30px;
+  width: 75%;
+}
+
+@font-face {
+  font-family: 'junction';
+  src: url(./assets/fonts/Junction-regular.otf);
+  font-style: normal;
+  line-height: 100%;
+}
+.headfont {
+  font-family: junction;
+  font-size: 48px;
+  font-weight: 100;
+  text-align: center;
+  color: white;
+}
+.headfont1 {
+  font-family: "Courier New", sans-serif;
+  color: #e4e4e4;
+  font-size: 18px;
+  text-align: center;
+
+}
+
 
 /*===================================== end =================================*/

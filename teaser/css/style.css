@@ -101,7 +101,7 @@ ol {
 
 .spad {
   padding-top: 30px;
-  padding-bottom: 100px;
+  padding-bottom: 40px;
 }
 
 .text-white h1,
@@ -603,26 +603,30 @@ ol {
 }
 
 .services__item {
-  margin-bottom: 45px;
+  margin-bottom: 15px;
+  justify-content: center;
+  align-items: center;
+  display: flex
 }
 .services__item:hover .services__item__icon:after {
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
       transform: rotate(45deg);
 }
-.services__item h4 {
+#categories h4 {
   color: #ffffff;
-  font-size: 22px;
-  font-weight: 700;
-  margin-top: 26px;
-  margin-bottom: 18px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 29px;
 }
+
 .services__item p {
   margin-bottom: 0;
 }
 
 .services__item__icon {
-  position: relative;
+  position: relative ;
   height: 70px;
   width: 70px;
   line-height: 70px;
@@ -938,4 +942,102 @@ ol {
 
 }
 
+.row.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+
+  & > [class^="col-"],
+  & > [class*=" col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+/*------------
+  Sponsors
+--------------*/
+
+#sponsors .spnsors-logo {
+  text-align: center;
+  border-radius: 6px;
+  padding: 50px;
+  margin-bottom: 30px;
+  display: block;  
+  background: #fff;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+#sponsors .spnsors-logo p{
+  color:#272626;
+  margin-top: 10px;
+}
+
+#sponsors .spnsors-logo:hover {
+  border-color: transparent;
+  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 1rem;
+   align-items: center; /* left and right */
+  justify-content: center;
+}
+
+.section-title {
+  font-size: 36px;
+  color: #212121;
+  line-height: 52px;
+  padding-bottom: 5px;
+  font-weight: bolder;
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+  margin-bottom: 0px;
+}
+
+.grid > div {
+  /* ... */
+  display: grid;
+}
+
+.grid > div::before,
+.grid > div > img {
+  grid-area: 1 / 1 / 2 / 2;
+  width: 100%;
+  height: 100%;
+  object-fit: contain
+}
+
+a.morelink {
+	text-decoration:none;
+	outline: none;
+}
+.morecontent span {
+	display: none;
+
+}
+
+a {
+	color: #0254EB
+}
+a:visited {
+	color: rgb(72, 2, 235)
+}
+
+.prize_container {
+border-right-width: 1px;
+border-right-color:#a1a1a1; 
+border-right-style: solid ;
+margin: 10px
+}
+
+@media only screen and (max-width:990px) {
+    .prize_container {
+      margin: 10px
+    }
+    
+}
 

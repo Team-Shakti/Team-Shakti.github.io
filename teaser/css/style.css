@@ -934,6 +934,7 @@ ol {
 .button span a{
   color: white;
   font-size: 22px;
+  letter-spacing: 1px;
   font-family: "Audiowide", sans-serif;
   -webkit-transition: color 100ms linear;
   -ms-transition: color 100ms linear;
@@ -1051,8 +1052,7 @@ margin: 10px
 @media only screen and (max-width:990px) {
     .prize_container {
       margin: auto;
-      border-right: none;
-    
+      border-right: none;    
     }
     
 }

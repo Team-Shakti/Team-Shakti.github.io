@@ -2000,6 +2000,9 @@ background-color: #20213a !important;}
   img#optional {
     display: none;
   }
+  #contact {
+    font-size: 20px;
+  }
 }
 
 .bg_footer:hover {

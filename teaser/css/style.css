@@ -768,6 +768,9 @@ ol {
   img#optional {
     display: none;
   }
+  #contact {
+    font-size: 20px;
+  }
 }
 
 .space-20 {

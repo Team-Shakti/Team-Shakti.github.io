@@ -754,8 +754,7 @@ ol {
 ===================*/
 #contact {
   font-family: 'Montserrat';
- /* background: #e4e4e4;
-  font-weight: bold;*/
+  font-weight: 500;
   font-size: 2vw;
   width: 38%;
   line-height: normal;
@@ -763,6 +762,16 @@ ol {
   padding-top: 20px;
   padding-bottom: 10px;
   text-align: center;
+}
+
+@media (max-width:990px) {
+  img#optional {
+    display: none;
+  }
+}
+
+.space-20 {
+  height: 20px
 }
 
 .footer-font{

@@ -1047,63 +1047,6 @@ blog page css
   top: 0;
   z-index: -1;
 }
-/*.single-blog-image {
-  background-position: center !important;
-  background-size: cover !important;
-  height: 300px;
-  border-radius: 10px 10px 0 0;
-
-}
-.blog-bg-1 {
-  background: url(assets/img/blog-blog-1.jpg);
-}
-.blog-bg-2 {
-  background: url(assets/img/blog-blog-2.jpg);
-}
-.blog-bg-3 {
-  background: url(assets/img/blog-blog-3.jpg);
-}
-.blog-bg-4 {
-  background: url(assets/img/blog-blog-4.jpg);
-}
-.blog-bg-5 {
-  background: url(assets/img/blog-blog-5.jpg);
-}
-.blog-bg-6 {
-  background: url(assets/img/blog-blog-6.jpg);
-}
-.blog-bg-7 {
-  background: url(assets/img/blog-blog-7.jpg);
-}
-.blog-bg-8 {
-  background: url(assets/img/blog-blog-8.jpg);
-}
-.blog-bg-9 {
-  background: url(assets/img/blog-blog-4.jpg);
-}
-
-.single-blog-text a {
-  color: #8e3535;
-  font-size: 17px;
-  -webkit-transition: all .3s;
-  -o-transition: all 3s;
-  transition: all .3s;
-}
-.single-blog-text a:hover {
-  color: #F78A89;
-  -webkit-transition: all .3s;
-  -o-transition: all 3s;
-  transition: all .3s;
-}
-.single-blog-text {
-  padding: 20px;
-  margin-bottom: 30px;
-  box-shadow: 0 0 2px #f2f2f2;
-  border-radius: 0 0 10px 10px;
-}
-.single-blog{
-  border-radius: 10px;
-}
 
 /*==========================
 single-blog page css
